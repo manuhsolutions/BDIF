@@ -1,0 +1,14 @@
+{"namespace": "code.bdif.data.avro",
+ "type": "record",
+ "name": "Datacore",
+ "fields": [
+     {"name": "label", "type": ["string","null"]},
+     {"name": "vector", "type": ["string","int","float","double","long","bytes"]},
+     {"name": "lookupfieldpos", "type": "int"},
+     {"name": "labelname", "type": "string"},
+     {"name": "operationtype", "type": "string"},
+     {"name": "filedesc", "type": "string"},
+     {"name": "fulldesc", "type": "string"},
+     {"name": "labeldesc", "type": "string"}
+   ]
+}
